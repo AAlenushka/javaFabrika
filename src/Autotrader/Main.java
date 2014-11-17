@@ -4,6 +4,7 @@ package Autotrader;
  * Created by Alena on 02.11.2014.
  */
 public class Main {
+
     public static void main(String[] args) {
 
         VehiclesForSale V1 = new VehiclesForSale();
@@ -30,7 +31,7 @@ public class Main {
         V2.setPrice(77000);
 
         System.out.println(V2.getMake() + " " + V2.getYear());
-        System.out.println(" V2 is\n " + V2.toString());
+        System.out.println(" V2 is\n\n " + V2.toString());
 
 
         VehiclesForSale V3 = new VehiclesForSale();
