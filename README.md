@@ -1,4 +1,7 @@
 javaFabrika
 ===========
 
-Example
+## Example
+
+* mvn clean test
+* mvn site
